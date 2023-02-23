@@ -1,0 +1,3 @@
+function acceptsTwo (a,b){
+return{true: `${a} is greater than ${b}`, false: `${a} is equal ${b}`}[a<b] || `${a} is less than ${b}`
+}
