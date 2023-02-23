@@ -1,2 +1,1 @@
 # Codility-Assesment
-# Codility-Assesment
