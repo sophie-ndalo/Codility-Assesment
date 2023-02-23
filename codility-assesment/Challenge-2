@@ -1,6 +1,8 @@
 function count(string, letter) {
+    if (string.length===0 ){
+        return []
+    }
     const splitCount = string.split('').filter(char => char === letter).length;
     return splitCount;
   }
-  
   
